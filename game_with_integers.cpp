@@ -6,8 +6,8 @@ int main()
     cin>>t;
     while(t--){
         cin>>n;
-        if(n%3 == 0) cout<<"SECOND\n";
-        else cout<<"FIRST\n";
+        if(n%3 == 1 || n%3 == 2) cout<<"FIRST\n";
+        else cout<<"SECOND\n";
     }
    return 0;
 }
