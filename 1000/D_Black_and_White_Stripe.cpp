@@ -19,7 +19,8 @@ int main() {
                 countW++;
             }
         }
-        
+        //B W W B W W B B: k=3
+        //      i
         int minWCount = countW;
         
         for (int i = k; i < n; i++) {
