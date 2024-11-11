@@ -14,11 +14,11 @@ int main() {
         
         int ans = a.length() + b.length();
         
-        for (int i = 0; i < a.length(); i++) {
+        for (int i = 0; i < a.length(); i++){
             for (int j = i + 1; j <= a.length(); j++) {
                 string sub = a.substr(i, j - i);
                 
-                if (b.find(sub) != string::npos) {
+                if (b.find(sub) != string::npos){
                     int ops = (a.length() - sub.length()) + (b.length() - sub.length());
                     ans = min(ans, ops);
                 }
