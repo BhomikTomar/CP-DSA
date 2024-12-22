@@ -24,7 +24,7 @@ int main() {
 
         if (ok) {
             cout << "YES\n";
-            for (int i = 0; i < n; i++) {
+            for (int i = 1; i <= n; i++) {
                 cout << a[i] << " ";
             }
             cout << "\n";
