@@ -32,7 +32,6 @@ int main() {
                 j--;
             }
         }
-        
         cout << ans << endl;
     }
     return 0;
